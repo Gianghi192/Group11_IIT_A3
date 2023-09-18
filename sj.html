@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="'en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>BieTechVN</title>
+    <link rel="stylesheet" href="sj.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="section-header">
+        <h1>Skills and Jobs</h1>
+      </div>
+      <div class="testimonials-content">
+        <div class="swiper testimonials-slider js-testimonials-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide testimonials-item">
+              <h2>Project Manager</h2>
+              <h3>Responsibilities</h3>
+              <p>
+                - Set the goals and manage the project plan including timeline.
+                <br />- Assign tasks and organize the entire project. <br />-
+                Keep an open line of communication with team members. <br />-
+                Ensure the project serves its functionality and on-time
+                completion.
+              </p>
+              <h3>Skills Required</h3>
+              <p>
+                - Leader skills. <br />- Organization and communication skills.
+              </p>
+            </div>
+            <div class="swiper-slide testimonials-item">
+              <h2>Technical Expert</h2>
+              <h3>Responsibilities</h3>
+              <p>
+                - Implement user interface and interactive, visual and audio
+                elements. <br />
+                - Create server side and database management system. <br />
+                - Ensure the website runs smoothly on a variety of browsers and
+                devices. <br />
+                - Ensure the security and the integrity of the data.
+              </p>
+              <h3>Skills Required</h3>
+              <p>
+                - Problem-solving and logical thinking skills. <br />
+                - Expertise with HTML, CSS and JavaScript. <br />
+                - Knowledge of both front-end (HTML5) and back-end (Node.js)
+                framework. <br />
+                - Proficiency in database management system including SQL and
+                NoSQL.
+                <br />
+                - Familiarity with GitHub repository. <br />
+                - Knowledge of DevOps for continuous integration and continuous
+                deployment (CD/CI).
+              </p>
+            </div>
+            <div class="swiper-slide testimonials-item">
+              <h2>Content Developer</h2>
+              <h3>Responsibilities</h3>
+              <p>
+                - Design the storytelling and puzzle theme of the room game.
+                <br />
+                - Maintain the user-friendly interface and easy access. <br />
+                - Optimize the audio assets including sound effects and
+                background music. <br />
+                - Take responsibility for all the visual elements
+              </p>
+              <h3>Skills Required</h3>
+              <p>
+                - Imaginative skills and creativity. <br />
+                - Expert in graphic design software: Adobe, Photoshop,
+                Illustrator.
+                <br />
+                - Proficiency in sound editing software: Audacity, Adobe
+                Audition.
+                <br />
+              </p>
+            </div>
+            <div class="swiper-slide testimonials-item">
+              <h2>Quality Assurance (QA) Tester</h2>
+              <h3>Responsibilities</h3>
+              <p>
+                - Collaborate with technical team. <br />
+                - Define and execute testing to identify bugs then fix it.
+                <br />
+                - Ensure the web runs without any bugs
+              </p>
+              <h3>Skills Required</h3>
+              <p>
+                - Problem-solving skills. <br />
+                - Methodologies for testing.
+              </p>
+            </div>
+            <div class="swiper-slide testimonials-item">
+              <h2>Market Research Analyst</h2>
+              <h3>Responsibilities</h3>
+              <p>
+                - Research the market trend and existing escape room website
+                competitors. <br />
+                - Gather and analyze the market trends. <br />
+                - Get insight into the project to meet the target audience.
+                <br />
+                - Conduct survey and analyze feedback from users to develop
+                website.
+              </p>
+              <h3>Skills Required</h3>
+              <p>
+                - Research and analyze skills. <br />
+                - Logical thinking and problem-solving skills. <br />
+                - Communication and time management.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination js-testimonials-pagination"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".js-testimonials-slider", {
+        grabCursor: true,
+        spaceBetween: 30,
+        pagination: {
+          el: ".js-testimonials-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          767: {
+            slide1PerView: 1,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

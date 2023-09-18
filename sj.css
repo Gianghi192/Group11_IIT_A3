@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/rmit-banner.jpg
+);
+background-size: cover;
+background-attachment: fixed;
+}
+.container {
+padding: 15px;
+
+}
+.section-header {
+text-align: center;
+color: white;
+
+}
+
+.testimonials-content {
+margin: 20px;
+text-align: left;
+
+}
+.testimonials-item {
+background-color: #c4c4c4;
+padding: 20px;
+border-radius: 20px;
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+}
+.testimonials .swiper-pagination-bullet {
+background-color: white;
+}
+.swiper-wrapper h2 {
+color: #010769;
+}
+.swiper-wrapper h3{
+color: #010769;
+}
+.swiper-wrapper p{
+color: black;
+}
+.swiper-wrapper h3{
+color: #010769;
+}
+.swiper-wrapper p{
+color: black;
+}

@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #010769; 
+}
+.containier {
+    margin: 10px;
+    width: 50%;
+}
+.container h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.row {
+    justify-content: space-between;
+    border: 1px solid white;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.row h2 {
+    color: #010769;
+    text-align: center;
+}
+.row h3 {
+    color: #010769;
+}
+.row:hover{
+    border-color: #010769;
+    background-color: #ed1b23;
+}

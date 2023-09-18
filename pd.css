@@ -1,0 +1,106 @@
+/* Định dạng cơ bản cho trang web */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+.header h1 {
+    color: blue;
+}
+/* Tiêu đề chính */
+h2 {
+    color: #333;
+}
+
+/* Tiêu đề phụ */
+h3 {
+    margin-top: 20px;
+    color: #555;
+}
+
+/* Danh sách không có dấu chấm đầu dòng */
+ul {
+    list-style-type: none;
+}
+
+/* Định dạng phần mục danh sách */
+li {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Phần nội dung văn bản */
+p {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+/* Bảng */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Định dạng dòng tiêu đề bảng */
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Định dạng tiêu đề cột trong bảng */
+th {
+    background-color: #f2f2f2;
+}
+
+/* Đóng khung cho các bảng */
+.bordered-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000; /* Màu và độ dày của viền, bạn có thể thay đổi chúng */
+}
+
+.bordered-table th, .bordered-table td {
+    border: 1px solid #000;
+    padding: 8px; /* Khoảng cách bên trong ô để làm cho nội dung không bị dính vào viền */
+    text-align: left; /* Căn chỉnh nội dung văn bản trong ô */
+}
+
+/* Đóng khung và căn giữa phần "Project Description" */
+h2 {
+    text-align: center;
+    border: 2px solid #000; /* Thêm đường viền */
+    padding: 10px; /* Khoảng cách bên trong */
+    width: 50%; /* Độ rộng cần thiết */
+    margin: 0 auto; /* Canh giữa trên trình duyệt */
+}
+
+/* Định dạng font cho phần "Software & Tools" */
+ul.software-tools {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Định dạng để gạch chân cho các mục "1. OVERVIEW" và "2. DESCRIPTION" */
+h3.underline {
+    text-decoration: underline;
+}
+#header {
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: darkgoldenrod;
+}
+
+/* Thiết lập màu cho các liên kết */
+a {
+    color: blue; /* Đặt màu xanh dương cho các liên kết */
+    text-decoration: none; /* Loại bỏ gạch chân mặc định của liên kết */
+}
+
+/* Thiết lập màu cho các liên kết khi di chuột qua */
+a:hover {
+    color: darkblue; /* Đặt màu xanh dương đậm khi di chuột qua liên kết */
+}
